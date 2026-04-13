@@ -1,1 +1,110 @@
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 5%;
+   border-bottom: 5px solid black;
+}
+nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 15px;
+    font-family: "Saira Stencil One", sans-serif;
+    border-bottom: 5px solid black;
+}
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header img {
+   height: 100px;
+   width: auto;
+}
+.Hero-Bilde {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.redd.it/n-e-t-f-l-i-x-v0-9sqfoo7ce1sg1.jpeg?width=1080&crop=smart&auto=webp&s=45ab61c495986155ddc5682500a1898fce8bea82);
+    width: 100%;
+    min-height: 1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero-teksts {
+  background-color: #191919;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  color: white;
+}
+.Hero-Bilde button {
+    border-radius: 20%;
+    height: 67px;
+    width: auto;
+    color: white;  
+    background-color: #553A41;  
+    border-color:#BB7E8C;
+}
+.Atlaide-prece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Atlaide-prece img {
+    height:500px;
+    width: auto;
+}
+
+.p-prece, .o-prece,.i-prece, .u-prece {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px 30px 70px;
+    border: 3px solid black;
+    padding: 10px 10px 10px 10px
+}
+
+.Tekstshero {
+    font-size: 50px; 
+}
+h3 {
+    font-size: 50px;
+}
+
+s {
+    color: grey;
+    font-size: 35px;
+}
+.Funny {
+    border-bottom: 5px solid black;
+    Font-size:67px;
+}
+
+footer {
+    font-size: 14px;
+}
+.footerfake {
+    display:flex;
+    justify-content:space-between ;
+    align-items: flex-start;
+    border-top:1px solid black;
+    height: auto;
+    border-bottom:1px solid black;
+}
+.footerd {
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
