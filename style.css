@@ -36,29 +36,9 @@ header img {
     display:flex;
     justify-content: center;
     align-items: center;
-    animation: heroCycle 20s infinite;
+    background-image: url(https://i.pinimg.com/originals/54/0f/4e/540f4e8aa71a09e6bec1fe04a888f518.gif);
 }
 
-@keyframes heroCycle {
-    0% {
-        background-image: url(https://preview.redd.it/n-e-t-f-l-i-x-v0-9sqfoo7ce1sg1.jpeg?width=1080&crop=smart&auto=webp&s=45ab61c495986155ddc5682500a1898fce8bea82);
-    }
-    40% {
-        background-image: url(https://preview.redd.it/n-e-t-f-l-i-x-v0-9sqfoo7ce1sg1.jpeg?width=1080&crop=smart&auto=webp&s=45ab61c495986155ddc5682500a1898fce8bea82);
-    }
-    50% {
-        background-image: url(https://media.tenor.com/IR-dL-oKeOUAAAAM/jojo-caesar.gif);
-    }
-    80% {
-        background-image: url(https://media.tenor.com/IR-dL-oKeOUAAAAM/jojo-caesar.gif);
-    }
-    90% {
-        background-image: url(https://preview.redd.it/n-e-t-f-l-i-x-v0-9sqfoo7ce1sg1.jpeg?width=1080&crop=smart&auto=webp&s=45ab61c495986155ddc5682500a1898fce8bea82);
-    }
-    100% {
-        background-image: url(https://preview.redd.it/n-e-t-f-l-i-x-v0-9sqfoo7ce1sg1.jpeg?width=1080&crop=smart&auto=webp&s=45ab61c495986155ddc5682500a1898fce8bea82);
-    }
-}
 .Hero-teksts {
   background-color: #BB7E8C;
   display:flex;
