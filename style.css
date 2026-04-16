@@ -112,11 +112,13 @@ s {
     font-size: 35px;
 }
 .Funny {
+    padding-left: 67px;
     border-bottom: 5px solid black;
-    font-size:67px;
+    font-size:40px;
 }
 
 footer {
+    width: 100%;
     font-size: 14px;
 }
 .footerfake {
@@ -158,11 +160,7 @@ body {
     color: #191919;
 }
 
-.page-shell {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 .shop-header {
     display: flex;
@@ -294,8 +292,6 @@ body {
 }
 
 .shop-footer {
-    display: flex;
-    flex-direction: column;
     background-color: #f5f5f5;
     padding: 0;
     border-radius: 0;
